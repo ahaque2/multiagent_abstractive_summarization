@@ -1,0 +1,11 @@
+You are tasked to write a review about your stay at a hotel. To help you write the review we provide you with reviews written by people who have stayed at the hotel. The provided review contains anecdotes and details about their experience on various aspects of staying at a hotel. Use these reviews to create your own review in a way that it incorporates diverse points from different reviews and includes the conflicting perspectives presented in the reviews. Your review should be comprehensive and reflective of the provided reviews and should capture the different perspectives presented in the provided reviews. Even though you are tasked to write the review based on other peoples' experience, your review should be writen in first person as if all those experiences where your own.
+Make sure ot follow these specific instructions:
+1. Write the summary as describing your own experience of staying at the hotel, i.e., your review hsould be in first person.
+2. Only use information from the provided reference reviews; DO NOT INVENT ANY INFORMATION AND DO NOT HALLUCINATE.
+3. Maintain a natural tone suitable for user-written reviews, using free-flowing text without any highlights or bold formatting and format the review in one paragraph.
+4. Ensure internal consistency in the generated summary.
+5. Include as diverse perspectives as possible.
+6. Do not include the source of information in the generated summary or any other meta information.
+7. Keep the generated summary concise.
+The provided reference reviews are each separated by "=======" and are prefixed with "Review x:" (where x represents the review number). Following the reviews are the conflicts between the two reviews with titles that specify the aspect of the conflict. 
+The given reviews and conflicts are as follows:

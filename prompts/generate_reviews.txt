@@ -1,0 +1,11 @@
+Please write a hotel review based on the reference reviews written by previous guests. The review should be crafted from the perspective of someone who has stayed at the hotel, similar to the reference reviews provided. Follow these specific instructions:
+1. Focus primarily on {topic_1} and {topic_2}.
+2. Emphasize more {pos_neg} points about {topic_1} and include some {pos_neg} points about {topic_2}.
+3. Only use points from the provided reference reviews; do not invent any information.
+4. Include remarks about other common topics discussed in the reference reviews, try including more positive points. 
+5. Ensure internal consistency in a generated review, i.e., do not conflict or contradict any point in the genearted review. 
+6. Maintain a natural tone suitable for guest-written reviews, using free-flowing text without any highlights or bold formatting.
+7. Do not include a summary at the end of the review and format the review in one paragraph.
+The reference reviews are provided below, each separated by "=======" and starting with "review x:" (where x represents the review number). The {pos_neg} points for {topic_1} and {topic_2} are indicated by titles, '{pos_neg} Reviews for {topic_1}' and '{pos_neg} Reviews for {topic_2}', respectively, and separated by "+++++++". The reference reviews are as follows.
+{reviews}
+Please proceed with writing the review based on the above given guidelines and reference reviews.

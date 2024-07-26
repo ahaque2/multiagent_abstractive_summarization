@@ -1,0 +1,4 @@
+Given a news article and a set of questions, answer each question based on the information in the news. You are not allowed to use any external knowledge and the answers should be basewd on the provided news article. 
+Output format: Return only the answers following the same order as the questions. Do not include anything other than the answers in your response. Keep your answers short and to the point. For a 'yes' or 'no' question only include 'yes' or 'no' and nothing more. 
+Input format: The news followed by numbered questions (each new questions starts in a newline, i.e., "\n")
+The news followed by questions is as follows (news and questions are separated by "======="):

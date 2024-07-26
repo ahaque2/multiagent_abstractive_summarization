@@ -1,0 +1,4 @@
+Given multiple user reviews for a hotel, generate a summary about their {topic}. {description}
+The generated summary should focusing only on the {topic} aspect in the reviews. If there is no information on {topic} in any of the provided reviews, return an empty string. Do not include anything other than the comments on {topic} in your summary.
+The summary should include conflicting facts, perspectives and speculations. The summary should take into account information from all the provided reviews on the {topic}. If the reviews differ on {topic}, inlcude both perspectives in the summary. 
+Following are the reviews to be used to generate the summary (each review is separated using ======== and is preceeded by 'Review n:' where n corresponds to the nth review):
